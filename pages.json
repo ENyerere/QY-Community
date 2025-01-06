@@ -1,0 +1,190 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/logo/logo",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/store/store",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "white",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/info/info",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/store/carpuselDetail/carpuselDetail1",
+			"style": {
+				"navigationBarTitleText": "简约生活"
+			}
+		},
+		{
+			"path": "pages/store/carpuselDetail/carpuselDetail2",
+			"style": {
+				"navigationBarTitleText": "家装换新"
+			}
+		},
+		{
+			"path": "pages/my/information",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/my/password/password",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/my/suggestion/suggestion",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/supermarket/supermarket",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/my/setting/setting",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/store/c/c1",
+			"style": {
+				"navigationBarTitleText": "物业缴费"
+			}
+		},
+		{
+			"path": "pages/store/c/c1-1",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/store/c/c5",
+			"style": {
+				"navigationBarTitleText": "水电维修"
+			}
+		},
+		{
+			"path": "pages/store/c/c5-1",
+			"style": {
+				"navigationBarTitleText": "用电故障报修"
+			}
+		},
+		{
+			"path": "pages/store/c/c5-2",
+			"style": {
+				"navigationBarTitleText": "用电故障报修"
+			}
+		},
+		{
+			"path": "pages/info/chat/chat",
+			"style": {
+				"navigationBarTitleText": "38幢业主总群",
+				"navigationBarShadow": {
+					"colorType": "grey"
+				}
+			}
+		},
+		{
+			"path": "pages/store/c/c2",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#55aaff"
+	},
+	"app-plus": {
+		"splashscreen": {
+			"alwaysShowBeforeRender": true,
+			"autoclose": true,
+			"delay": 0,
+			"image": "static/易社区logo.png"
+		}
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "black",
+		"list": [{
+				"pagePath": "pages/store/store",
+				"text": "首页",
+				"iconPath": "static/底部导航/首页.png",
+				"selectedIconPath": "static/底部导航/首页选中.png"
+			},
+			{
+				"pagePath": "pages/supermarket/supermarket",
+				"text": "社区超市",
+				"iconPath": "static/底部导航/超市.png",
+				"selectedIconPath": "static/底部导航/超市选中.png"
+			},
+			{
+				"pagePath": "pages/community/community",
+				"text": "易社区",
+				"iconPath": "static/底部导航/社区.png",
+				"selectedIconPath": "static/底部导航/社区选中.png"
+			},
+			{
+				"pagePath": "pages/info/info",
+				"text": "消息",
+				"iconPath": "static/底部导航/消息.png",
+				"selectedIconPath": "static/底部导航/消息选中.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/底部导航/我的.png",
+				"selectedIconPath": "static/底部导航/我的选中.png"
+			}
+		]
+	}
+}
