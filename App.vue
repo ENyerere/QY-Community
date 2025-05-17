@@ -7,7 +7,7 @@
 
 			setTimeout(() => {
 				uni.reLaunch({
-					url: '/pages/login/login'
+					url: '/pages/my/my'
 				});
 			}, 2000);
 		},
