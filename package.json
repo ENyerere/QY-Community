@@ -1,0 +1,21 @@
+{
+  "name": "qy-community",
+  "version": "1.0.0",
+  "description": "易社区",
+  "main": "main.js",
+  "scripts": {
+    "dev:h5": "uni -p h5",
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:h5": "uni build -p h5",
+    "build:mp-weixin": "uni build -p mp-weixin"
+  },
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.4.28",
+    "uview-ui": "^2.0.37",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "sass": "^1.69.0",
+    "sass-loader": "^10.1.1"
+  }
+}
